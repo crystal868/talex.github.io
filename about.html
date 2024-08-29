@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Talex Interior Solutions | Space-Saving Furniture & Accsessories</title>
+<meta charset="UTF-8">
+<meta name="description" content="Talex Interior Solutions offers space-saving furniture and accessories to maximize your space and enhance your organization.">
+<meta name="keywords" comtent="Space-Saving, Furniture, Accessories">
+<meta name="author" content="Crystal Alexander">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/69def3eb83.js" crossorigin="anonymous"></script>
+</head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family:"Times New Roman", serif}
+h1,h2,h3,h4,h5,h6 {font-family:serif; letter-spacing:5px}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 25px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33.33333%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display:table;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.container2 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container2 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container2 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container2 {
+      text-align: center;
+  }
+  .container2 img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+footer {
+  background-color: #2F4F4F;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+.fa{
+  padding:5px;
+   font-size: 20px;
+  width: 80px;
+  color: white;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+}
+
+</style>
+
+<body>
+<a href="index.html" class="w3-bar-item w3-button"><img src="images/primary logo 1.png" alt="TalexLogo" width="50%"></a>
+
+<div class="topnav" id="myTopnav">
+ <a href="index.html" class="w3-bar-item w3-button">Home</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+<a href="about.html" class="w3-bar-item w3-button">About</a>
+<a href="products.html" class="w3-bar-item w3-button">Products</a> 
+<a href="policy.html" class="w3-bar-item w3-button">Policies</a>  
+<a href="order.html" class="w3-bar-item w3-button">Order Now</a>
+<a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+</div>
+
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="products.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Products</a>
+  <a href="policy.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Policies</a>
+  <a href="order.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Order Now</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact Us</a>
+</div>
+
+<div style="padding-left:16px">
+</div>
+</div>
+
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="images/white desk.jpg" class="w3-round w3-image w3-opacity-min" alt="Wall Table" width="100%" height="750">
+    </div>
+
+<!-- About Section -->
+    <div class="w3-col m6 w3-padding-large">
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1 class="w3-center">About Talex</h1><br>
+      <h5 class="w3-center">Expertly Designed & Curated Pieces</h5> 
+      <p class="w3-large">Talex Interior Solutions specializes in transforming living environments with expertly designed, space-efficient furniture and accessories. Our mission is to tackle everyday challenges such as limited storage and the need for flexible workspaces, offering innovative solutions for diverse lifestyles—whether for college students, busy professionals, or large families. 
+      <br><br>We provide a range of products, from made-to-order pieces to custom design services, ensuring that each item is tailored to meet the specific needs of our residential and commercial clients. Every piece is thoughtfully crafted to balance functionality with aesthetics and durability, allowing you to enhance both the utility and beauty of your space. Choose Talex for a stylish solution that makes the most of your environment.</p>
+    </div>
+  </div>
+
+  <hr>
+
+<div class="w3-row w3-padding-64" id="team">
+    <div class="w3-col m12 w3-padding-large">
+      <h1 class="w3-center">Meet the Founders</h1>
+      <h5 class="w3-center">A Union of Talent & Passion</h5>
+    </div>
+
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <p class="w3-large">Talex Interior Solutions, founded by husband-and-wife team Josiah and Crystal Alexander, embodies their commitment to craftsmanship and artistic excellence in custom and curated interior solutions. Originating from Josiah's 25 years of experience in joinery and a personal need to optimize space in their family home, the business emerged from the couple's dedication to creating tailored, innovative furniture and accessories that address common challenges faced by households. The name "Talex" reflects a fusion of their surnames, symbolizing the union of their talents and passions while establishing a legacy of quality that resonates with clients seeking innovative interior solutions.</p>
+  </div>
+
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m6 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/josiah.png" alt="Josiah" style="width:100%">
+        <div class="w3-container">
+          <h3>Josiah Alexander</h3>
+          <p class="w3-opacity">Founder & Head of Operations</p>
+          <p>Josiah Alexander, Co-Founder and Operations Manager of Talex Interior Solutions, boasts nearly thirty years of experience in crafting custom designs for residential and commercial spaces. His unwavering commitment to high-quality, tailored solutions reflects his dedication to innovation and adaptability in a dynamic industry, ensuring that his work not only meets but exceeds client expectations. Driven by a passion for design and craftsmanship, Josiah focuses on creating functional and visually appealing pieces that enhance user experience and enrich everyday life..</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m6 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="images/crystal.png" alt="Crystal" style="width:100%">
+        <div class="w3-container">
+          <h3>Crystal Alexander</h3>
+          <p class="w3-opacity">Co-Founder & Finance & Administration Manager</p>
+          <p>Crystal Alexander, as Co-founder and Finance and Administrative Manager at Talex, leverages over fifteen years of retail customer service experience to ensure excellence in all operations. Her dedication to outstanding customer service, effective communication, and efficient administration positions Talex as a potential industry leader focused on exceptional client experiences and long-term relationships.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+<!-- History Section -->
+  <div class="w3-row w3-padding-64" id="history">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Commitment to Quality</h1><br>
+      <h4 class="w3-center">The Pursuit of Excellence</h4>
+      <p class="w3-large">Talex embodies the values of Excellence, Integrity, and Legacy. We create and choose every piece with these values in mind, ensuring high quality and ethical craftsmanship. Our goal is to create quality pieces that exceed our clients' expectations. We prioritize transparency, honesty, and responsibility, building trust with our clients and partners. We aim to leave a legacy by creating and providing enduring pieces and accessories that enrich the lives of those who use them. </p>  
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="images/desk mount table.jpg" class="w3-round w3-image w3-opacity-min" alt="White Desk" style="width:100%">
+    </div>
+  </div>
+
+<hr>
+
+<footer>
+<a href="index.html" class="w3-bar-item w3-button"><img src="images/symbol logo white.png" alt="Talex Logo" width="20%"><br>Home</a>
+
+<h5 style="text-align:left; color:white; letter-spacing:0px;">Contact Us:</h5>
+<p style="text-align:left; font-size:15px; line-height:0.5;"><a href="mailto:talexinteriors868@gmail.com">Email</a></p>
+<p style="text-align:left; font-size:15px;line-height:0.5;"><a href="tel:+18687245117"> Tel: 1-868-724-5117</a></p>
+<p style="text-align:left;line-height:0.5;"><a href="https://wa.me/+18687245117">
+<img src="https://static.whatsapp.net/rsrc.php/yZ/r/JvsnINJ2CZv.svg" alt="WhatsApp Logo"  style="width:80px"></a></p>
+
+<p style="font-size:15px; font-family:serif;">Follow Us</p>
+
+<div class="fa">
+<a href="https://www.facebook.com/crystalann.alexander/"><i class="fa-brands fa-facebook"></i></a> 
+<a href="https://www.instagram.com/crystalannalex/"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.tiktok.com/@crys_tal86/"><i class="fa-brands fa-tiktok"></i></a> <hr>
+</div>
+
+<p>&copy;2024 Talex Interior Solutions. All rights reserved.</p>
+</footer>
+
+<script>
+
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+
+</body>
+</html>
